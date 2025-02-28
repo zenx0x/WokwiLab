@@ -8,14 +8,15 @@ To compile and run the following projects use the compile.sh script you find in 
 For those of you brave enough here are the installation instruction.
 
 # Installation
+- Install [VSCode](https://code.visualstudio.com/)
 
-Install the following extension for VS Code:
-- [Wokwi Extension](https://marketplace.visualstudio.com/items?itemName=wokwi.wokwi-vscode)
-- [Serial Monitor](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-serial-monitor)
+- Install the following extension for VS Code:
+  - [Wokwi Extension](https://marketplace.visualstudio.com/items?itemName=wokwi.wokwi-vscode)
+  - [Serial Monitor](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-serial-monitor)
   
 Once installed the Wokwi extension please log-in with your wokwi account to authenticate.
 
-## [Install PlatformIO](https://docs.platformio.org/en/latest/core/installation/index.html):
+- ## [Install PlatformIO](https://docs.platformio.org/en/latest/core/installation/index.html):
 
 ### Super-Quick (macOS / Linux)
 To install or upgrade PlatformIO Core paste that at a Terminal prompt:
