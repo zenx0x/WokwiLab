@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "author": "Antonio Boiano",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": -110.32, "left": -11.3, "attrs": {} },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": -95.77,
+      "left": -89.92,
+      "attrs": { "color": "red" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": -15.81,
+      "left": -93.96,
+      "rotate": 90,
+      "attrs": { "value": "00" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": 99.32,
+      "left": 15.34,
+      "attrs": { "color": "green", "bounce": "1" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX0", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX0", "$serialMonitor:TX", "", [] ],
+    [ "led1:C", "esp:GND.2", "black", [ "v0" ] ],
+    [ "led1:A", "r1:1", "red", [ "v0" ] ],
+    [ "r1:2", "esp:D12", "red", [ "h0" ] ],
+    [ "esp:D4", "btn1:1.r", "green", [ "h32.48", "v102.64" ] ],
+    [ "esp:GND.1", "btn1:2.r", "black", [ "h18.05", "v92.64" ] ]
+  ],
+  "dependencies": {}
+}

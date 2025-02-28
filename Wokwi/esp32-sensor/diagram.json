@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "author": "Antonio Boiano",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": -110.5, "left": -14.6, "attrs": {} },
+    {
+      "type": "wokwi-slide-potentiometer",
+      "id": "pot1",
+      "top": 101,
+      "left": -68.2,
+      "attrs": { "travelLength": "30" }
+    },
+    {
+      "type": "wokwi-dht22",
+      "id": "dht1",
+      "top": -95.7,
+      "left": 138.6,
+      "attrs": { "temperature": "-4.2" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX0", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX0", "$serialMonitor:TX", "", [] ],
+    [ "pot1:SIG", "esp:D13", "green", [ "h-9.63", "v-157.24" ] ],
+    [ "pot1:GND", "esp:GND.2", "black", [ "v-33.35", "h-206.96", "v-94.39" ] ],
+    [ "dht1:VCC", "esp:3V3", "red", [ "v0" ] ],
+    [ "dht1:GND", "esp:GND.1", "black", [ "v0" ] ],
+    [ "dht1:SDA", "esp:D15", "green", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}
