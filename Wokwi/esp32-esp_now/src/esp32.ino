@@ -6,6 +6,7 @@ uint8_t broadcastAddress[] = {0x8C, 0xAA, 0xB5, 0x84, 0xFB, 0x90};
 
 esp_now_peer_info_t peerInfo;
 
+// Sending callback
 void OnDataSent(const uint8_t *mac_addr, esp_now_send_status_t status) {
   Serial.print("Send Status: ");
   Serial.println(status == ESP_NOW_SEND_SUCCESS ? "Ok" : "Error");
@@ -27,25 +28,28 @@ void setup() {
   esp_now_register_send_cb(OnDataSent);
   //receive callback
   esp_now_register_recv_cb(OnDataRecv);
+
   // Peer Registration
   memcpy(peerInfo.peer_addr, broadcastAddress, 6);
   peerInfo.channel = 0;  
   peerInfo.encrypt = false;
+  // Add peer (Is possible to register multiple peers)
   esp_now_add_peer(&peerInfo);
 }
 
 void loop() {
-  String pp = "Hello!!!Hello!!";
-  WiFi.setTxPower(WIFI_POWER_2dBm);
-  esp_now_send(broadcastAddress, (uint8_t*)pp.c_str(), pp.length() + 1);
-
-  delay(500);
-
-  WiFi.setTxPower(WIFI_POWER_19_5dBm);
-  esp_now_send(broadcastAddress, (uint8_t*)pp.c_str(), pp.length() + 1);
-
-  delay(1000);
+  while (!Serial.available()); // Wait for input
+  String message = Serial.readStringUntil('\n');
+/* esp_now_send(uint8_t *da, uint8_t *data, uint8_t *len)
+   Parameters:
+     uint8_t *da: array of the MAC address of the peer to which the data packet is sent.
+                  If the address is NULL, the data is sent to all addresses in the Communication Table (all the registered peers).
+     uint8_t *data: array with the data packet to be sent.
+     uint8_t len: length of the array of the data packet.
+*/
+  esp_now_send(broadcastAddress, (uint8_t*)message.c_str(), message.length() + 1);
 }
+
 
 
 
