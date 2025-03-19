@@ -1,0 +1,351 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+38 us: BOOT START
+674 us: SENSOR IDLE COMPLETE
+4056 us: No object detected within 50cm
+4455 us: SENSOR ACTIVE COMPLETE - Occupancy check done
+4947 us: Parking status: FREE
+196800 us: WIFI SETUP COMPLETE
+197158 us: Sending message: FREE
+198410 us: Message send status: Success
+217178 us: TX COMPLETE
+223430 us: WIFI OFF COMPLETE
+
+--- ENERGY TIMING SUMMARY ---
+Boot period: 0.28 ms
+Sensor idle period: 3.75 ms
+Sensor active period: 192.42 ms
+WiFi setup period: 20.38 ms
+Transmission period: 6.20 ms
+Total active time: 223.03 ms
+Deep sleep period: 16000 ms
+------------------------------
+
+238473 us: Going to deep sleep for 16 seconds
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+38 us: BOOT START
+680 us: SENSOR IDLE COMPLETE
+4121 us: No object detected within 50cm
+4532 us: SENSOR ACTIVE COMPLETE - Occupancy check done
+5024 us: Parking status: FREE
+7807823 us: WIFI SETUP COMPLETE
+7807955 us: Sending message: FREE
+7809171 us: Message send status: Success
+7827479 us: TX COMPLETE
+7833727 us: WIFI OFF COMPLETE
+
+--- ENERGY TIMING SUMMARY ---
+Boot period: 0.28 ms
+Sensor idle period: 3.82 ms
+Sensor active period: 7803.39 ms
+WiFi setup period: 19.64 ms
+Transmission period: 6.20 ms
+Total active time: 7833.32 ms
+Deep sleep period: 16000 ms
+------------------------------
+
+7859248 us: Going to deep sleep for 16 seconds
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+38 us: BOOT START
+681 us: SENSOR IDLE COMPLETE
+4121 us: No object detected within 50cm
+4532 us: SENSOR ACTIVE COMPLETE - Occupancy check done
+5024 us: Parking status: FREE
+34924763 us: WIFI SETUP COMPLETE
+34924893 us: Sending message: FREE
+34926111 us: Message send status: Success
+34944418 us: TX COMPLETE
+34950666 us: WIFI OFF COMPLETE
+
+--- ENERGY TIMING SUMMARY ---
+Boot period: 0.28 ms
+Sensor idle period: 3.82 ms
+Sensor active period: 34920.32 ms
+WiFi setup period: 19.64 ms
+Transmission period: 6.20 ms
+Total active time: 34950.26 ms
+Deep sleep period: 16000 ms
+------------------------------
+
+34976253 us: Going to deep sleep for 16 seconds
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+38 us: BOOT START
+680 us: SENSOR IDLE COMPLETE
+4121 us: No object detected within 50cm
+4532 us: SENSOR ACTIVE COMPLETE - Occupancy check done
+5024 us: Parking status: FREE
+36026761 us: WIFI SETUP COMPLETE
+36027083 us: Sending message: FREE
+36028419 us: Message send status: Success
+37752860 us: TX COMPLETE
+37759108 us: WIFI OFF COMPLETE
+
+--- ENERGY TIMING SUMMARY ---
+Boot period: 0.28 ms
+Sensor idle period: 3.82 ms
+Sensor active period: 36022.31 ms
+WiFi setup period: 1726.10 ms
+Transmission period: 6.20 ms
+Total active time: 37758.70 ms
+Deep sleep period: 16000 ms
+------------------------------
+
+37784694 us: Going to deep sleep for 16 seconds
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+38 us: BOOT START
+681 us: SENSOR IDLE COMPLETE
+4121 us: No object detected within 50cm
+4532 us: SENSOR ACTIVE COMPLETE - Occupancy check done
+5025 us: Parking status: FREE
+45554117 us: WIFI SETUP COMPLETE
+45554247 us: Sending message: FREE
+45555452 us: Message send status: Success
+45573804 us: TX COMPLETE
+45580052 us: WIFI OFF COMPLETE
+
+--- ENERGY TIMING SUMMARY ---
+Boot period: 0.28 ms
+Sensor idle period: 3.83 ms
+Sensor active period: 45549.68 ms
+WiFi setup period: 19.67 ms
+Transmission period: 6.20 ms
+Total active time: 45579.65 ms
+Deep sleep period: 16000 ms
+------------------------------
+
+45605638 us: Going to deep sleep for 16 seconds
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+37 us: BOOT START
+489 us: SENSOR IDLE COMPLETE
+3930 us: No object detected within 50cm
+4326 us: SENSOR ACTIVE COMPLETE - Occupancy check done
+4799 us: Parking status: FREE
+187948 us: WIFI SETUP COMPLETE
+188269 us: Sending message: FREE
+189603 us: Message send status: Success
+208444 us: TX COMPLETE
+214692 us: WIFI OFF COMPLETE
+
+--- ENERGY TIMING SUMMARY ---
+Boot period: 0.09 ms
+Sensor idle period: 3.83 ms
+Sensor active period: 183.68 ms
+WiFi setup period: 20.49 ms
+Transmission period: 6.20 ms
+Total active time: 214.29 ms
+Deep sleep period: 16000 ms
+------------------------------
+
+229740 us: Going to deep sleep for 16 seconds
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+37 us: BOOT START
+680 us: SENSOR IDLE COMPLETE
+4113 us: No object detected within 50cm
+4524 us: SENSOR ACTIVE COMPLETE - Occupancy check done
+5015 us: Parking status: FREE
+188157 us: WIFI SETUP COMPLETE
+188288 us: Sending message: FREE
+189504 us: Message send status: Success
+207812 us: TX COMPLETE
+214060 us: WIFI OFF COMPLETE
+
+--- ENERGY TIMING SUMMARY ---
+Boot period: 0.28 ms
+Sensor idle period: 3.82 ms
+Sensor active period: 183.73 ms
+WiFi setup period: 19.64 ms
+Transmission period: 6.20 ms
+Total active time: 213.66 ms
+Deep sleep period: 16000 ms
+------------------------------
+
+229220 us: Going to deep sleep for 16 seconds
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+38 us: BOOT START
+574 us: SENSOR IDLE COMPLETE
+4016 us: No object detected within 50cm
+4424 us: SENSOR ACTIVE COMPLETE - Occupancy check done
+4908 us: Parking status: FREE
+187862 us: WIFI SETUP COMPLETE
+187994 us: Sending message: FREE
+189212 us: Message send status: Success
+207519 us: TX COMPLETE
+213767 us: WIFI OFF COMPLETE
+
+--- ENERGY TIMING SUMMARY ---
+Boot period: 0.17 ms
+Sensor idle period: 3.83 ms
+Sensor active period: 183.53 ms
+WiFi setup period: 19.64 ms
+Transmission period: 6.20 ms
+Total active time: 213.36 ms
+Deep sleep period: 16000 ms
+------------------------------
+
+228929 us: Going to deep sleep for 16 seconds
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+1 us: BOOT START
+616 us: SENSOR IDLE COMPLETE
+4015 us: No object detected within 50cm
+4423 us: SENSOR ACTIVE COMPLETE - Occupancy check done
+4915 us: Parking status: FREE
+187608 us: WIFI SETUP COMPLETE
+187929 us: Sending message: FREE
+189220 us: Message send status: Success
+208104 us: TX COMPLETE
+214352 us: WIFI OFF COMPLETE
+
+--- ENERGY TIMING SUMMARY ---
+Boot period: 0.28 ms
+Sensor idle period: 3.78 ms
+Sensor active period: 183.26 ms
+WiFi setup period: 20.49 ms
+Transmission period: 6.20 ms
+Total active time: 214.01 ms
+Deep sleep period: 16000 ms
+------------------------------
+
+229489 us: Going to deep sleep for 16 seconds
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+38 us: BOOT START
+681 us: SENSOR IDLE COMPLETE
+4114 us: No object detected within 50cm
+4526 us: SENSOR ACTIVE COMPLETE - Occupancy check done
+5020 us: Parking status: FREE
+188155 us: WIFI SETUP COMPLETE
+188286 us: Sending message: FREE
+189505 us: Message send status: Success
+207812 us: TX COMPLETE
+214060 us: WIFI OFF COMPLETE
+
+--- ENERGY TIMING SUMMARY ---
+Boot period: 0.28 ms
+Sensor idle period: 3.82 ms
+Sensor active period: 183.72 ms
+WiFi setup period: 19.64 ms
+Transmission period: 6.20 ms
+Total active time: 213.65 ms
+Deep sleep period: 16000 ms
+------------------------------
+
+229226 us: Going to deep sleep for 16 seconds
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+38 us: BOOT START
+680 us: SENSOR IDLE COMPLETE
+4121 us: No object detected within 50cm
+4532 us: SENSOR ACTIVE COMPLETE - Occupancy check done
+5024 us: Parking status: FREE
+6920414 us: WIFI SETUP COMPLETE
+6920737 us: Sending message: FREE
+6922069 us: Message send status: Success
+6940910 us: TX COMPLETE
+6947158 us: WIFI OFF COMPLETE
